@@ -1,0 +1,72 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2.4rem;
+  font-family :'Times New Roman', Times, serif;
+
+}
+
+.grey {
+  background-color: rgb(145, 143, 143);
+  color: white;
+}
+
+.blue {
+  background-color: aqua;
+}
+
+.pink {
+  background-color:crimson;
+  color : white;
+}
+
+.yellow {
+  background-color: rgb(138, 189, 36);
+  color: white;
+}
+
+.lightgreen {
+  background-color: rgb(60, 192, 185);
+  color: white;
+}
+
+.green {
+  background-color: darkcyan;
+  color : white;
+}
+
+.coral {
+  background-color: coral;
+  color: white;
+}
+
+
+.card {
+  height: 60%;
+  background-color: white;
+  color : black;
+  padding: 40px 0;
+  width: 80%;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 5%; */
+}
+
+cite {
+  font-family: sans-serif;
+  text-align: right;
+  font-size:  medium;
+  width: 60%;
+}
+
+.btn {
+  font-size: 20px;
+  font-family: sans-serif;
+}
